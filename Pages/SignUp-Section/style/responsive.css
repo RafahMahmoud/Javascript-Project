@@ -1,0 +1,36 @@
+@media screen and (max-width:1200px){
+    html{
+        font-size: 13px;
+        overflow-x: hidden;
+    }
+    .movie-images{
+        display: none;
+    }
+    #Login-Fields{
+    border-radius: 8px;
+    }
+    body{
+        overflow: hidden;
+        justify-content: center;
+    }
+    #Signup-section{
+        margin-left: 30rem;
+    }
+}
+@media screen and (max-width:720px){
+    html{
+        font-size: 13px;
+        overflow-x:hidden ;
+    }
+    .movie-images{
+        display: none;
+
+    }
+    #Login-Fields{
+    border-radius: 8px;
+    }
+    body{
+        justify-content: center;
+    }
+
+}

@@ -1,0 +1,40 @@
+
+
+
+@media screen and (max-width:1200px){
+    html{
+        font-size: 13px;
+        overflow: hidden;
+    }
+    body{
+        width: 100%;
+        overflow: hidden;
+    }
+    #Login-section{
+        margin-left: 30rem;
+    }
+    .movie-images{
+        display: none;
+    }
+    #Login-Fields{
+    border-radius: 8px;
+    }
+}
+    
+@media screen and (max-width:720px){
+    html{
+        font-size: 10px;
+    }
+    body{
+        width: 100%;
+    }
+    .movie-images{
+        display: none;
+    }
+    #Login-Fields{
+    border-radius: 8px;
+    }
+    body{
+        justify-content: center;
+    }
+    }

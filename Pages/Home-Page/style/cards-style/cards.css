@@ -1,0 +1,132 @@
+.cards-container .card {
+    background-image: linear-gradient(#669cee2b,#669cee00),
+    url('../assets/back-ground.jpg'); 
+     background-size: cover;
+    background-position: center;
+    width: 12rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border-width: 3px;
+    margin: 20px;
+    color: white; 
+    transition: 700ms ease;
+    text-decoration: none;
+}
+.card:hover{
+    background-image: linear-gradient(#669cee4d,#669cee14),
+    url('../assets/back-ground.jpg');
+    transform: scale(1.1);
+
+}
+.reaction{
+    margin-bottom: 0.4rem;
+    margin-right: 0.4rem;
+}
+#fav-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 17.4rem;
+}
+#fav-card .fa-plus{
+    background-color: white;
+    color: #1E2935;
+    border-radius: 100%;
+    padding: 0.8rem;
+}
+.card .title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin:0;
+    margin-bottom: 0.2rem;
+    height: 2.8rem;
+} 
+.card .poster {
+    padding: 0rem;
+    width: 9rem;
+    height: 10rem;
+    border-radius: 8px;
+    border-width: 1px;
+    background-image: url(../assets/wallpaperflare.com_wallpaper\ \(7\).jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.info {
+    font-size: 0.7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+.info div{
+    background-color: #1E2935;
+    border-radius: 12px;
+    border-width: 3px;
+    padding:  0.5rem 1rem;
+}
+.card .info .clock .time {
+    margin-left:0rem;
+    padding: 0rem;
+    display: inline-block;
+}
+
+
+
+
+@media (max-width: 1430px){
+    .card:nth-child(n+6) {
+        display: none;
+      }
+      
+}
+@media (max-width: 1220px){
+    .card:nth-child(n+5) {
+        display: none;
+      }
+      
+
+}
+@media (max-width: 980px){
+    .hero-section{
+        letter-spacing: 0rem;
+        line-height: 1.4rem;
+        text-wrap: wrap;
+    }
+    .hero-section p{
+        width: auto;
+    }
+    .card:nth-child(n+4) {
+        display: none;
+      }
+      
+}
+@media (max-width: 750px){
+    html{
+        font-size: 10px;
+    }
+    .card:nth-child(n+3) {
+        display: none;
+      }
+      
+
+}
+@media (max-width: 512px){
+    .card:nth-child(n+2) {
+        display: none;
+      }
+      
+    }

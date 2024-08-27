@@ -1,0 +1,62 @@
+#Movie-HeroSection{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+#Movie-Details{
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    display: flex;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    height: 50rem;
+    width: 105rem;
+    
+    
+}
+#Movie-Title-Description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding-bottom: 2rem;
+
+}
+
+#Movie-Title-Description h1{
+    padding-bottom: 2rem;
+}
+
+#Play-Button{
+    border-radius: 8px;
+    background-color: #1E84E6;
+    color: white;
+    display: flex;
+    padding: 0rem 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 13rem;
+    border-width: 0rem;
+    transition: 500ms ease;
+    font-size: 1rem;
+    height: 3rem;
+    margin-bottom: 4rem;
+    cursor: pointer;
+    
+}
+#Play-Button:hover{
+    transform: scale(1.1);
+}
+#in-button{
+    color: white;
+    background-color: transparent;
+    padding-right: 1rem;
+    
+}

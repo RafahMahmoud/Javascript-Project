@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('back-ground.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+* {
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.1rem;
+    padding: 1rem;
+    width: auto;
+    height: auto;
+    margin-right: 6rem;
+    margin-left: 6rem;
+    background-color: #2C3E50;
+    border-radius: 0.8rem;
+} 
+/*.group-title{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-left: 4rem;
+} */
+ .cards-container .card {
+    background-image: linear-gradient(#669cee2b,#669cee00),
+    url(../Images/background.jpg); 
+     background-size: cover;
+    background-position: center;
+    width: 12rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border-width: 3px;
+    margin: 20px;
+    color: white; 
+    transition: 700ms ease;
+    text-decoration: none;
+}
+.card:hover{
+    background-image: linear-gradient(#669cee4d,#669cee14),
+    url(../Images/background.jpg);
+    transform: scale(1.1);
+
+}
+#fav-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 17.4rem;
+}
+#fav-card .fa-plus{
+    background-color: white;
+    color: #1E2935;
+    border-radius: 100%;
+    padding: 0.8rem;
+}
+.card .title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin:0;
+    margin-bottom: 0.2rem;
+    height: 2.8rem;
+} 
+.card .poster {
+    padding: 0rem;
+    width: 9rem;
+    height: 10rem;
+    border-radius: 8px;
+    border-width: 1px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.info {
+    font-size: 0.7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+.info div{
+    background-color: #1E2935;
+    border-radius: 12px;
+    border-width: 3px;
+    padding:  0rem 0.5rem;
+}
+.card .info .clock .time {
+    margin-left:0rem;
+    padding: 0rem;
+    display: inline-block;
+}
+.play{
+width: 1.8rem;
+height: 1.8rem;
+border-radius: 100%;
+background-color: #1E2935;
+display: flex;
+align-content: center;
+text-align: center;
+}
+
+.heart{
+width: 1.9rem;
+height: 1.9rem;
+border-radius: 100%;
+background-color: #1E2935;
+display: flex;
+align-content: center;
+text-align: center;
+}
+.clock{
+display: inline-block;
+margin: 0rem;
+padding: 0rem;
+} 
+.rate{
+display: flex;
+align-items: center;
+}

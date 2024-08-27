@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الصفحة التعريفية</title>
+    <link rel="stylesheet" href="style/nav.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/Profile-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body >
+    <header>
+        <div class="display">
+        <div class="nav-bar">
+          <a href="../Home-Page/Home.html">  <img class="logo" src="style/coollogo_com-14687926.png" alt="logo" width="138" height="78"></a>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="content">
+                <ul>
+                    <li><a href="../Home-Page/Home.html">Home</a></li>
+                    <li><a href="../Movies-Catalouge-Page/Movies-Catalouge.html">Movies</a></li>
+                    <li><a href="../Contact-Us-Page/Contact.html">Contact Us</a></li>
+                    <li><a href="../About-Us/About-Us.html">About Me</a></li>
+                </ul>
+            </div>
+            <div class="profile">
+                <div class="div-img" >
+                    <img id="user-image-nav" class="profile-img" src="" alt="profile" onclick="window.location.href= `http://127.0.0.1:5500/Pages/Profile-Page/Profile.html`">
+                </div>
+                <a href="../Profile-Page/Profile.html" class=="userNameNave" id="userNameNav"></a>
+               
+                    <button type="submit" id="nav-logout" onclick="window.location.href = window.location.href = `http://127.0.0.1:5500/Pages/Home-Page/index.html`">Log Out</button>
+                  </select>
+            </div>
+        </div>
+    </div>
+    </header>
+     <br><br>
+    
+    <div class="profile-container">
+        <div class="pesonalInformation">
+            <img id="user-image" src="" style="width: 160px;" alt="">
+            <div class="profile-info">
+                <h1 id="userName"></h1>
+                <p id="title"></p>
+                <p id="description"></p>
+            </div>
+        </div>
+        <hr>
+        <p class="group-title">Watched Movies</p>
+<div class="cards-container" id="group2"></div>
+<div class="pagination-capsule">
+    <div class="pagination">
+        <a href="" class="arrow"><</a>
+        <a href="" class="active">-</a>
+        <a href="">-</a>
+        <a href="">-</a>
+        <a href="" class="arrow">></a>
+    </div>
+</div>  
+    </div>
+
+        
+
+        
+    <footer class="footer">
+        <div class="footer-container">
+            
+
+            <div class="footer-column">
+                <h4>Home</h4>
+                <ul>
+                    <li><a href="../Home-Page/Home.html#group2">Popular</a></li>
+                    <li><a href="../Home-Page/Home.html#group3">Must-Watch</a></li>
+                    <li><a href="../Home-Page/Home.html#group4">New Release</a></li>
+                    <li><a href="../Home-Page/Home.html#group5">Trending</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Movie Details</h4>
+                <ul>
+                    <li><a href="../Movie-Details-Page/Movie-Details.html">Details</a></li>
+                    
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Movies</h4>
+                <ul>
+                    <li><a href="../Movies-Catalouge-Page/Movies-Catalouge.html">Search and filter</a></li>
+                    
+                </ul>
+            </div>
+            
+            <div class="footer-column" id="contact-column">
+                <h4>Connect With Us</h4>
+                <ul class="social-icons">
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Baor. All Rights Reserved.</p>
+            <ul>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Cookie Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script type="module" src="profile.js"></script>
+    <script type="module" src="../../Controllers/appBarConttroller.js"></script>
+    <script type="module" src="../../Controllers/ProfilePageControllers/profilePage.js"></script>
+</body>
+</html>

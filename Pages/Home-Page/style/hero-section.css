@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('back-ground.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+* {
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 4rem;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    line-height: 1.7rem;
+    margin: 4rem;
+}
+.hero-section p{
+    width: 46rem;
+}
+.hero-section p span{
+    font-weight: 900;
+}
+.hero-section button{
+    border-radius: 8px;
+    background-color: #1E84E6;
+    color: white;
+    display: flex;
+    padding: 0rem 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 11rem;
+    border-width: 0rem;
+    transition: 500ms ease;
+}
+.hero-section button:hover{
+    transform: scale(1.1);
+}
+#in-button{
+    color: white;
+    background-color: transparent;
+    
+}
+@media (max-width: 768px){
+    .hero-section{
+        letter-spacing: 0.09rem;
+        line-height: 1.4rem;
+        text-wrap: wrap;
+    }
+    .hero-section p{
+        width: auto;
+    }
+    
+}

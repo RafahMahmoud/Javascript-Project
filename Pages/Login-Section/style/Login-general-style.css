@@ -1,0 +1,29 @@
+body {
+    background-image: url("../assets/space.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    min-height: 100vh; 
+    margin: 0; 
+}
+hr{
+    background-color: black;
+height: 12px;
+  
+}
+
+#Signup-Link{
+    color: #CDCACA;
+    text-decoration: none;
+    opacity: 0.5;
+    transition: opacity 0.4s ;
+    
+}
+#Signup-Link:hover{
+    opacity: 1;
+}

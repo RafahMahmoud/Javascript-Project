@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style/nav.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/Login-general-style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style/Login-Section-Style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/Buttons.css" />
+    <link rel="stylesheet" href="style/responsive.css" />
+    <script type="module" src="../../Firebase-config/firebase-config.js"></script>
+  </head>
+  <body>
+    <div id="Login-section">
+      <div id="Login-Fields">
+        <img src="assets/LoginLogo.png" alt="" style="margin-bottom: 3rem" />
+        <div id="Login-form-section">
+          <form id="Login-Form">
+            <label class="label">Email</label>
+            <br /><br />
+            <input type="email" name="email" class="Login-TextFields" placeholder="   Enter your Email"  />
+            <br /><br />
+            <label class="label">Password</label>
+            <br /><br />
+            <input type="password" name="password" class="Login-TextFields" placeholder="   Enter your Password"/>
+            <br /><br />
+            <button id="Login-Button">Login</button>
+            <br><br>
+            <label >Dont Have an account?</label>
+            <br>
+            <a target="blank" href="../SignUp-Section/SignUp.html" id="Signup-Link">Click here and explore the universe</a>
+            <br /><br>
+            <hr style="color: black; height: 2px" />
+
+            
+          </form>
+          <button id="Login-Google">
+            <img src="assets/GmailIcon.png" alt="" />
+            Login with Google
+          </button>
+          
+        </div>
+      </div>
+      <div>
+      <div id="images-view">
+        <div class="movie-images"></div>
+        <div class="movie-images"></div>
+        <div class="movie-images"></div>
+      </div>
+    </div>
+    <script src="javascript/pageManipulation/imagesAnimation.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="javascript/LoginController/loginPageController.js"></script>
+    
+  </body>
+</html>

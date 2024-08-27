@@ -1,0 +1,183 @@
+
+.container-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.card1{
+  
+    width: 60.06%;
+    height: 10.125rem;
+    background-color: #2C3E50;
+    color: white;
+    padding: 3rem;
+    margin-bottom: 3rem;
+}
+.section2 p {
+    margin-top: 2rem;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  
+    width: 60.06%;
+    height: 15.125rem;
+    background-color: #2C3E50;
+    color: white;
+    padding: 1rem;
+}
+
+
+
+.firstdiv {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 1rem;
+    
+}
+
+.firstdiv h1 {
+    margin: 0;
+}
+
+.firstdiv h1 i {
+    margin-left: 0.5rem; 
+}
+.mm{
+    width: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../imges/ba.jpg');
+    margin: .5rem;
+    height: 8rem;
+    border-radius: 12%;
+}
+.a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b{
+    height: 30%;
+}
+.card3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 2rem;
+  
+    width: 60.06%;
+    height: 30.125rem;
+    background-color: #2C3E50;
+    color: white;
+    padding: 1rem;
+}
+#bb{
+    width: 50%;
+    display: flex;
+    align-items: start;
+    background-image: url('../imges/ba.jpg');
+    margin: .5rem;
+    height: 15rem;
+    border-radius: 12%;
+}
+.x{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+}
+.rating {
+    font-size: 16px;
+    color: #3498db;
+}
+
+.ratingcards {
+    flex-direction: column;
+    display: flex;
+    padding: 1rem;
+    
+}
+.username-section{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card3 button{
+    width: 13% ;
+    height:4rem;
+    background-color:#1E2935;
+    color: white;
+    border-radius: 12%;
+}
+
+
+
+
+.navigation-arrows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.navigation-arrows button{
+    width: 5rem;
+    border-radius: 50%;
+    background-color: #1E2935;
+}
+
+
+
+
+.progress-bar {
+    width: 6rem;
+    height: 0.5rem;
+    background-color: #34495e;
+    position: relative;
+}
+
+.progress {
+    width: 20%;
+    height: 100%;
+    background-color: #3498db;
+    position: absolute;
+}
+
+.nav-button i {
+    font-size: 1.2rem;
+}
+
+
+.Rights-cards{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    width: 30.06%;
+    height: 30.125rem;
+    background-color: #2C3E50;
+    color: white;
+    padding: 0.7rem;
+    margin-top: 2rem;
+    
+
+}
+.Rights-cards button{
+    width:15rem;
+    background-color: #1E2935;
+    font-size: 1.5rem;
+    border-radius: 12%;
+    color: white;
+}
+
+
+
